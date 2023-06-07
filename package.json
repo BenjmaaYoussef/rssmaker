@@ -3,13 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@webext-core/isolated-element": "^1.0.3",
+    "after-load": "^1.0.4",
+    "axios": "^1.4.0",
+    "css-selector-generator": "^3.6.4",
+    "dayjs": "^1.11.7",
+    "firebase": "^9.22.1",
+    "html-element-picker": "^1.1.2",
+    "html-react-parser": "^3.0.16",
+    "html-to-formatted-text": "^2.7.0",
+    "kutty": "^0.6.0",
+    "material-react-table": "^1.11.5",
+    "node-html-parser": "^6.1.5",
+    "notistack": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loading-overlay-ts": "^2.0.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-usestateref": "^1.0.8",
+    "rss": "^1.2.2",
+    "web-vitals": "^2.1.4",
+    "webextension-polyfill": "^0.10.0",
+    "xml-formatter": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +56,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.11.2",
+    "tailwindcss": "^3.3.2"
   }
 }
